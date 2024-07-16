@@ -9,7 +9,9 @@ export function SponsorForm() {
   return (
     (<div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 lg:px-8">
       <div className="space-y-4 text-center">
-        <h1 className="text-3xl font-bold"></h1>
+      <h1 className="text-3xl font-bold">Sponsor Our Team</h1>
+        <p className=" text-base text-slate-600 gitw-full">
+        CalTech Racing accepts financial donations, donated products, discounted products, and service time.            </p>
       </div>
       <form className="mt-8 space-y-6">
         <div>

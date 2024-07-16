@@ -37,12 +37,7 @@ export default function Navbar() {
           <Link href="/subteams" className="text-sm font-semibold leading-6 text-gray-900">
             Subteams
           </Link>
-          <Link href="/sponsors" className="text-sm font-semibold leading-6 text-gray-900">
-            Sponsors
-          </Link>
-          <Link href="/about" className="text-sm font-semibold leading-6 text-gray-900">
-            About Us
-          </Link>
+          
           <Link href="/contact" className="text-sm font-semibold leading-6 text-gray-900">
             Contact
           </Link>
@@ -89,18 +84,7 @@ export default function Navbar() {
                 >
                   Subteams
                 </Link>
-                <Link
-                  href="/sponsors"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Sponsors
-                </Link>
-                <Link
-                  href="/about"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  About Us
-                </Link>
+    
                 <Link
                   href="/contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
