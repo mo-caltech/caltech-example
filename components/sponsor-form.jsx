@@ -5,14 +5,11 @@ import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select"
 import { Button } from "@/components/ui/button"
 
-export function ContactForm() {
+export function SponsorForm() {
   return (
     (<div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 lg:px-8">
       <div className="space-y-4 text-center">
-        <h1 className="text-3xl font-bold">Contact Us</h1>
-        <p className=" text-base text-slate-600 w-full">
-            Have a question or want to get in touch with our Formula SAE team? Fill out the form below and we'll get back to you as soon as possible.
-            </p>
+        <h1 className="text-3xl font-bold"></h1>
       </div>
       <form className="mt-8 space-y-6">
         <div>

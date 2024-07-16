@@ -28,37 +28,39 @@ import h from '@/src/img/h.jpg'
 export default function Home() {
   return (
     <div>
-      <section className="relative w-full h-[80vh] min-h-[600px] bg-muted overflow-hidden px-4 py-8 md:p-32">
-        <div className="z-0">
-          <Image unoptimized quality={100} src={teamhero} alt="Formula SAE Race Car" layout="fill" className="brightness-50 saturate-0 object-cover object-center w-full h-full" />
+      <section className="relative w-full h-[80vh] min-h-[600px] overflow-hidden px-4 py-8 md:p-8">
+  <div className="relative w-full h-full bg-white rounded-lg shadow-lg">
+    <div className="z-0">
+      <Image unoptimized quality={100} src={teamhero} alt="Formula SAE Race Car" layout="fill" className="brightness-50 saturate-0 object-cover object-center w-full h-full rounded-lg" />
+    </div>
+    <div className="relative z-10 container h-full flex items-center justify-center w-full">
+      <div className="max-w-4xl text-center space-y-6 w-full">
+        <h1 className="font-bold text-white text-5xl sm:text-4xl md:text-5xl lg:text-6xl">Shaping the Future of Racing</h1>
+        <p className="text-white text-lg sm:text-xl font-medium w-full">
+          We are CalTech’s Formula SAE team. Our student-run group designs, builds, and races high-performance autocross cars, competing globally to showcase our engineering excellence.
+        </p>
+        <div className="mt-10 flex items-center justify-center gap-x-6">
+          <a
+            href="#"
+            className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            Sponsor Us
+          </a>
+          <a href="#" className="text-sm font-semibold leading-6 text-white">
+            Join The Team <span aria-hidden="true">→</span>
+          </a>
         </div>
-        <div className="relative z-10 container h-full flex items-center justify-center w-full">
-          <div className="max-w-4xl text-center space-y-6 w-full">
-            <h1 className="font-bold text-white text-5xl sm:text-4xl md:text-5xl lg:text-6xl">Shaping the Future of Racing</h1>
-            <p className="text-white text-lg sm:text-xl font-medium w-full">
-              We are CalTech’s Formula SAE team. Our student-run group designs, builds, and races high-performance autocross cars, competing globally to showcase our engineering excellence.
-            </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
-              className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >
-              Sponsor Us
-            </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-             Join The Team <span aria-hidden="true">→</span>
-            </a>
-          </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
 
       
 
-      <div className="bg-white py-24 sm:py-12">
+      <div className="bg-white py-8 sm:py-12">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-            Our Sponsors
+          <h2 className="text-center text-lg font-medium leading-8 text-gray-900">
+            Proudly Backed By
           </h2>
           <div className="flex flex-wrap justify-center items-center gap-8 mt-10">
             <div className="relative h-16 w-24">
@@ -185,74 +187,71 @@ export default function Home() {
         </div>
       </div>
     </section>
-      <div className="overflow-hidden bg-white py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-          <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our people</h2>
-            <p className="mt-6 text-xl leading-8 text-gray-600">
-              Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut
-              molestiae velit error quod. Excepturi quidem expedita molestias quas.
-            </p>
-            <p className="mt-6 text-base leading-7 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.
-            </p>
-            <div className="mt-10 flex">
-              <a
-                href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Join our team <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
-          </div>
-
-          
-          <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-            <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-              <Image
-                alt=""
-                src={c}
-                className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-              />
-            </div>
-            <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-              <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                <Image
-                  alt=""
-                  src={a}
-                  className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                />
-              </div>
-              <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                <Image
-                  alt=""
-                  src={b}
-                  className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                />
-              </div>
-              <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                <Image
-                  alt=""
-                  src={f}
-                  className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                />
-              </div>
-            </div>
-          </div>
+    <div className="overflow-hidden bg-white py-12">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="grid max-w-2xl gap-x-12 gap-y-16 lg:mx-auto lg:max-w-none lg:grid-cols-2 lg:gap-y-8">
+      <div className="lg:col-span-1 lg:w-full lg:max-w-lg lg:pb-8">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our people</h2>
+        <p className="mt-6 text-xl leading-8 text-gray-600">
+          Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut
+          molestiae velit error quod. Excepturi quidem expedita molestias quas.
+        </p>
+        <p className="mt-6 text-base leading-7 text-gray-600">
+          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
+          fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.
+        </p>
+        <div className="mt-10 flex">
+          <a
+            href="#"
+            className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
+            Join our team <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 gap-6 sm:gap-8 lg:col-span-1 lg:grid-cols-2">
+        <div className="flex justify-end">
+          <Image
+            alt=""
+            src={c}
+            className="aspect-[7/5] w-full max-w-none rounded-2xl bg-gray-50 object-cover"
+          />
+        </div>
+        <div className="flex justify-end">
+          <Image
+            alt=""
+            src={a}
+            className="aspect-[4/3] w-full max-w-none rounded-2xl bg-gray-50 object-cover"
+          />
+        </div>
+        <div className="flex justify-end">
+          <Image
+            alt=""
+            src={b}
+            className="aspect-[7/5] w-full max-w-none rounded-2xl bg-gray-50 object-cover"
+          />
+        </div>
+        <div className="hidden sm:block">
+          <Image
+            alt=""
+            src={f}
+            className="aspect-[4/3] w-full max-w-none rounded-2xl bg-gray-50 object-cover"
+          />
         </div>
       </div>
     </div>
+  </div>
+</div>
 
     
 
-    <div className="relative isolate overflow-hidden bg-gray-900">
+    <div className=" p-8 md:p-24">
+    <div className="relative isolate overflow-hidden bg-gray-900 rounded-lg">
       <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-6xl font-bold tracking-tight text-white sm:text-6xl">
+          <h2 className="text-4xl font-bold tracking-tight text-white md:text-6xl">
             Ready to Race?
-            <br />
+  
 
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
@@ -285,6 +284,7 @@ export default function Home() {
         </defs>
       </svg>
     </div>
+      </div>
   
     </div>
   )

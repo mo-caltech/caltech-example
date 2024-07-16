@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import teamhero from '@/src/team-hero.jpg'
-import { ContactForm } from '@/components/contact-form'
+import { SponsorForm } from '@/components/sponsor-form'
 const Contact = () => {
   return (
     <div>
@@ -18,7 +18,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-        <ContactForm/>
+        <SponsorForm/>
     </div>
   )
 }

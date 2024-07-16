@@ -26,24 +26,21 @@ export function Subteam() {
   }
   return (
     (<div className="flex flex-col min-h-dvh">
-      <section className="relative w-full h-[40vh] min-h-[300px] bg-muted overflow-hidden px-4 py-4 md:p-32">
-        <div className="z-0">
-          <Image unoptimized quality={100} src={teamhero} alt="Formula SAE Race Car" layout="fill" className="brightness-50 saturate-0 object-cover object-center w-full h-full" />
-        </div>
-        <div className="relative z-10 container h-full flex items-center justify-center w-full">
-          <div className="max-w-4xl text-center space-y-6 w-full">
-            <h1 className="font-bold text-white text-5xl sm:text-4xl md:text-5xl lg:text-6xl">Shaping the Future of Racing</h1>
-            <p className="text-white text-lg sm:text-xl font-medium w-full">
-              We are CalTech’s Formula SAE team. Our student-run group designs, builds, and races high-performance autocross cars, competing globally to showcase our engineering excellence.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="w-full py-12 md:py-24 lg:py-24">
+   <section className="relative w-full h-[20vh] min-h-[400px] overflow-hidden px-4 py-8 md:p-8">
+  <div className="relative w-full h-full bg-white rounded-lg shadow-lg">
+    <div className="z-0">
+      <Image unoptimized quality={100} src={teamhero} alt="Formula SAE Race Car" layout="fill" className="brightness-50 saturate-0 object-cover object-center w-full h-full rounded-lg" />
+    </div>
+    <div className="relative z-10 container h-full flex items-center justify-center w-full">
+      <div className="max-w-4xl text-center space-y-6 w-full">
+        <h1 className="font-bold text-white text-5xl sm:text-4xl md:text-5xl lg:text-6xl">Subteams</h1>
+      </div>
+    </div>
+  </div>
+</section>
+      <section className="w-full py-8 md:py-8 lg:py-8">
       <div className="flex flex-col items-center justify-center space-y-6 text-center">
-          <div className="space-y-12 mt-">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Innovate, Design, Compete.            </h2>
-            <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <div className="space-y-12 mt-">            <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               We are a team of passionate designers and developers, dedicated to creating beautiful and functional
               digital experiences. Our mission is to help businesses and individuals achieve their goals through
               innovative technology solutions.
