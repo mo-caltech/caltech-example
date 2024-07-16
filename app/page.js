@@ -40,15 +40,15 @@ export default function Home() {
           We are CalTech’s Formula SAE team. Our student-run group designs, builds, and races high-performance autocross cars, competing globally to showcase our engineering excellence.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
-          <a
-            href="#"
+          <Link
+            href="/sponsor-us"
             className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             Sponsor Us
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
+          </Link>
+          <Link href="/contact" className="text-sm font-semibold leading-6 text-white">
             Join The Team <span aria-hidden="true">→</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -129,9 +129,7 @@ export default function Home() {
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Innovate, Design, Compete.            </h2>
             <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We are a team of passionate designers and developers, dedicated to creating beautiful and functional
-              digital experiences. Our mission is to help businesses and individuals achieve their goals through
-              innovative technology solutions.
+            We are a Formula SAE team of passionate students designing, building, and racing high-performance cars. 
             </p>
           </div>
         </div>
@@ -152,7 +150,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+          <Link className="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl" href="/subteams">
             <Image
               src={g}
               width={400}
@@ -167,7 +165,7 @@ export default function Home() {
                 <p className="text-sm">It takes a multi-disciplinary team to build a race car.</p>
               </div>
             </div>
-          </div>
+          </Link>
           <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
             <Image
               src={h}
@@ -193,20 +191,17 @@ export default function Home() {
       <div className="lg:col-span-1 lg:w-full lg:max-w-lg lg:pb-8">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our people</h2>
         <p className="mt-6 text-xl leading-8 text-gray-600">
-          Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut
-          molestiae velit error quod. Excepturi quidem expedita molestias quas.
-        </p>
+        Formula SAE challenges us with real-world constraints, applying engineering principles in aerodynamics, thermodynamics, electrical systems, and drivetrain/suspension design. We solve technical problems, manage budgets, and handle marketing/PR.</p>
         <p className="mt-6 text-base leading-7 text-gray-600">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-          fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.
+        Caltech Racing is open to all majors and years. While most members are engineers, we welcome everyone! By applying classroom theories to real-world problems, Caltech’s Formula SAE produces some of the most talented and sought-after graduates.
         </p>
         <div className="mt-10 flex">
-          <a
-            href="#"
+          <Link
+            href="/contact"
             className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Join our team <span aria-hidden="true">&rarr;</span>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="grid grid-cols-1 gap-6 sm:gap-8 lg:col-span-1 lg:grid-cols-2">
@@ -258,15 +253,15 @@ export default function Home() {
             Join us on our mission to build the next generation of racing.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
-              className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >
-              Sponsor Us
-            </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-             Join The Team <span aria-hidden="true">→</span>
-            </a>
+          <Link
+            href="/sponsor-us"
+            className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            Sponsor Us
+          </Link>
+          <Link href="/contact" className="text-sm font-semibold leading-6 text-white">
+            Join The Team <span aria-hidden="true">→</span>
+          </Link>
           </div>
         </div>
       </div>

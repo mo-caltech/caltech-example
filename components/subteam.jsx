@@ -10,6 +10,8 @@ import aero from '@/src/img/aero.png'
 import chasis from '@/src/img/b.png'
 import ergonomics from '@/src/img/ergo.jpg'
 import business from '@/src/img/business.jpg'
+import sub from '@/src/img/sub.jpg'
+
 
 
 
@@ -26,10 +28,10 @@ export function Subteam() {
   }
   return (
     (<div className="flex flex-col min-h-dvh">
-   <section className="relative w-full h-[20vh] min-h-[400px] overflow-hidden px-4 py-8 md:p-8">
+   <section className="relative w-full h-[25vh] min-h-[450px] overflow-hidden px-4 py-8 md:p-8">
   <div className="relative w-full h-full bg-white rounded-lg shadow-lg">
     <div className="z-0">
-      <Image unoptimized quality={100} src={teamhero} alt="Formula SAE Race Car" layout="fill" className="brightness-50 saturate-0 object-cover object-center w-full h-full rounded-lg" />
+      <Image unoptimized quality={100} src={sub} alt="Formula SAE Race Car" layout="fill" className="brightness-50 saturate-0 object-cover object-center w-full h-full rounded-lg" />
     </div>
     <div className="relative z-10 container h-full flex items-center justify-center w-full">
       <div className="max-w-4xl text-center space-y-6 w-full">
@@ -41,9 +43,7 @@ export function Subteam() {
       <section className="w-full py-8 md:py-8 lg:py-8">
       <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-12 mt-">            <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We are a team of passionate designers and developers, dedicated to creating beautiful and functional
-              digital experiences. Our mission is to help businesses and individuals achieve their goals through
-              innovative technology solutions.
+          Caltech Racing combines multiple disciplines, uniting students from various fields to design, build, and race a high-performance car. By integrating diverse expertise, from engineering to business, the team ensures every aspect of the vehicle is optimized for speed and efficiency. This collaborative effort drives innovation and excellence in every competition.
             </p>
           </div>
         </div>
