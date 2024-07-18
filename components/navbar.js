@@ -1,6 +1,6 @@
 'use client'
 
-import logo from '@/src/logo.png'
+import logo from '@/public/logo.png'
 
 import { useState } from 'react'
 import { Dialog, DialogPanel, Popover, PopoverGroup } from '@headlessui/react'

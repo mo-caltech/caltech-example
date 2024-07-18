@@ -1,16 +1,15 @@
 
 import Link from "next/link"
-import teamhero from '@/src/team-hero.jpg'
 import Image from "next/image"
 
-import electric from '@/src/img/electric.png'
-import suspension from '@/src/img/suspension.png'
-import drivetrain from '@/src/img/drivetrain.png'
-import aero from '@/src/img/aero.png'
-import chasis from '@/src/img/b.png'
-import ergonomics from '@/src/img/ergo.jpg'
-import business from '@/src/img/business.jpg'
-import sub from '@/src/img/sub.jpg'
+import electric from '@/public/img/electric.png'
+import suspension from '@/public/img/suspension.png'
+import drivetrain from '@/public/img/drivetrain.png'
+import aero from '@/public/img/aero.png'
+import chasis from '@/public/img/b.png'
+import ergonomics from '@/public/img/ergo.jpg'
+import business from '@/public/img/business.jpg'
+import sub from '@/public/img/sub.jpg'
 
 
 

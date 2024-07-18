@@ -3,26 +3,23 @@ import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Link from "next/link";
 
-import teamhero from '@/src/team-hero.jpg'
-import alpinestarsLogo from '@/src/sponsors/Alpinestars-Logo.png'
-import altiumLogo from '@/src/sponsors/Altium_Logo.svg.png'
-import ansysLogo from '@/src/sponsors/Ansys.png'
-import caltechMceLogo from '@/src/sponsors/caltech mce.png'
-import caltechLogo from '@/src/sponsors/Caltech_logo_2014.png'
-import dassaultLogo from '@/src/sponsors/Dassault-Syst-mes-Logo.png'
-import haasLogo from '@/src/sponsors/Logo_Haas_F1.png'
+import teamhero from '@/public/team-hero.jpg'
+import alpinestarsLogo from '@/public/sponsors/Alpinestars-Logo.png'
+import altiumLogo from '@/public/sponsors/Altium_Logo.svg.png'
+import ansysLogo from '@/public/sponsors/Ansys.png'
+import caltechMceLogo from '@/public/sponsors/caltech mce.png'
+import caltechLogo from '@/public/sponsors/Caltech_logo_2014.png'
+import dassaultLogo from '@/public/sponsors/Dassault-Syst-mes-Logo.png'
+import haasLogo from '@/public/sponsors/Logo_Haas_F1.png'
 
-import a from '@/src/img/a.jpg'
-import b from '@/src/img/b.png'
-import c from '@/src/img/c.jpg'
-import d from '@/src/img/d.png'
-import e from '@/src/img/e.jpg'
-import f from '@/src/img/f.jpg'
-import g from '@/src/img/g.jpg'
-import h from '@/src/img/h.jpg'
-
-
-
+import a from '@/public/img/a.jpg'
+import b from '@/public/img/b.png'
+import c from '@/public/img/c.jpg'
+import d from '@/public/img/d.png'
+import e from '@/public/img/e.jpg'
+import f from '@/public/img/f.jpg'
+import g from '@/public/img/g.jpg'
+import h from '@/public/img/h.jpg'
 
 
 export default function Home() {

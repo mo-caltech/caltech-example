@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import logo from '@/src/logo.png';
+import logo from '@/public/logo.png';
 
 const SEO = () => {
   return (
